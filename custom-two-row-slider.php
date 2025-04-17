@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Custom Two Row Slider
- * Plugin URI: https://github.com/emanweb/custom-two-row-slider/
- * Description: A custom slider that displays items in two rows with 4 items per row
+ * Plugin URI: https://culturahr.com
+ * Description: A custom slider that displays items in two rows with 4 items per row. Example: [two_row_slider images="1,2,3,4,5,6,7,8" title="Your Slider Title"]
  * Version: 1.0.0
  * Author: Emanuel Costa
  * Author URI: https://www.hightechweb.com
