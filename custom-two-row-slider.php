@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Custom Two Row Slider
- * Plugin URI: https://culturahr.com
+ * Plugin URI: https://github.com/emanweb/custom-two-row-slider/
  * Description: A custom slider that displays items in two rows with 4 items per row
  * Version: 1.0.0
  * Author: Emanuel Costa
