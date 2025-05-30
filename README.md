@@ -6,6 +6,10 @@ A WordPress plugin that creates a beautiful two-row slider with 4 items per row 
 
 Custom Two Row Slider is a lightweight WordPress plugin that allows you to create elegant image sliders with two rows of content. Each row displays 4 items, making it perfect for showcasing portfolios, products, or any other content in a grid-like slider format.
 
+## Screenshot
+
+![Sample Slider](assets/images/sample-slider.png)
+
 ## Features
 
 - Two-row slider layout with 4 items per row
