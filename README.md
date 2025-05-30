@@ -56,17 +56,18 @@ Here's a complete example of how to use the shortcode:
 - PHP 7.0 or higher
 - jQuery (included with WordPress)
 
-## Support
-
-For support, please visit [https://culturahr.com](https://culturahr.com)
-
-## Author
+## Support and Author
 
 Created by Emanuel Costa - [https://www.hightechweb.com](https://www.hightechweb.com)
 
 ## License
 
 This plugin is licensed under the GPL v2 or later.
+
+## todo:
+
+- Instead of manually adding media IDs, let the user pick the images from the media library
+- Make easy for users to customize the styles
 
 ## Changelog
 
