@@ -1,0 +1,100 @@
+.custom-two-row-slider {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.slider-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slider-container {
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.slider-container.slick-initialized {
+    opacity: 1;
+    visibility: visible;
+}
+
+.slider-item {
+    padding: 10px;
+    opacity: 1 !important; /* Ensure all slides are visible */
+}
+
+.slider-item img {
+    width: 100%;
+    height: 150px; /* Fixed height for consistent grid */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: transparent; /* For logos */
+}
+
+.slider-item img:hover {
+    transform: scale(1.05);
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #ccc; /* Inactive dot color */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #6ebe4d; /* Active dot color */
+    opacity: 1;
+}
+
+.slick-slide {
+    margin: 10px 0;
+}
+
+.slick-list {
+    margin: 0; /* Remove side margins since we removed arrows */
+}
+
+/* Hide slider until initialized to prevent flash of unstyled content */
+.slick-slider {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.slick-slider.slick-initialized {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .slider-item img {
+        height: 130px;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-item img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        margin: 0;
+    }
+    
+    .slider-item {
+        padding: 5px;
+    }
+
+    .slider-item img {
+        height: 100px;
+    }
+} 
