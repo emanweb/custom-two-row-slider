@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Custom Two Row Slider
- * Plugin URI: https://culturahr.com
- * Description: A custom slider that displays items in two rows with 4 items per row
+ * Plugin URI: https://github.com/emanweb/custom-two-row-slider/
+ * Description: Custom Two Row Slider is a lightweight WordPress plugin that allows you to create elegant image sliders with two rows of content. Each row displays 4 items, making it perfect for showcasing portfolios, products, or any other content in a grid-like slider format.
  * Version: 1.0.0
  * Author: Emanuel Costa
  * Author URI: https://www.hightechweb.com
